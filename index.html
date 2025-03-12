@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Arya!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <audio id="birthdayMusic" src="birthday-song.mp3" loop></audio> <!-- Background Music -->
+    
+    <div class="container">
+        <h1>🎂 Happy Birthday Arya! 🎉</h1>
+        <img src="Arya.jpg" alt="Arya's Photo" class="profile-img">
+        <p class="message">Wishing you a fantastic day filled with love, joy, and laughter! 🎈🎊</p>
+        <button onclick="startCelebration()">Click for a Surprise!</button>
+        <p id="surpriseMessage" class="hidden">🎁 You are amazing! Have an incredible year ahead! 🎁</p>
+        <button onclick="downloadCard()">Download Birthday Card</button>
+        <canvas id="birthdayCard" class="hidden"></canvas>
+    </div>
+    
+    <script src="script.js"></script>
+    <script src="confetti.js"></script> <!-- For confetti effect -->
+    <script src="fireworks.js"></script> <!-- For fireworks effect -->
+</body>
+</html>
