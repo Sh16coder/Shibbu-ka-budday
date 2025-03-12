@@ -13,7 +13,7 @@ function downloadCard() {
 
     // Draw background
     let img = new Image();
-    img.src = "birthday-card-bg.jpg"; // Upload a background image for the card
+    img.src = "birthday-card-bg.jpeg"; // Upload a background image for the card
     img.onload = function () {
         ctx.drawImage(img, 0, 0, 500, 300);
 
